@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Lucida Handwriting',cursive;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: #041E42;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.logon{
+    font-family: 'Lucida Handwriting',cursive;
+}
+.navbar ul li {
+    float: right;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.navbar ul li a {
+    font-family: 'Garamond', serif; /* Apply the Google Font to the navbar links */
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #0E3386;
+    color: white;
+}
+body{
+    background:#002D62;
+    color: white;
+}
+
+h1{ 
+    text-align: center;
+    margin: 100px auto 50px;
+    font-weight: 600;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+    margin:auto;
+    height: 80px;
+    background: #002244;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+form input{
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    padding: 0 30px;
+}
+form button{
+    padding:0 40px;
+    height: 100%;
+    background: #003399;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+::placeholder{
+    color:#fff ;
+    font-size: 18px;
+}
+#show-more-btn{
+    background: #003399;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 10px auto 100px;
+    cursor: pointer;
+    display: none;
+
+}
+
+#search-result{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+
+}
+#search-result img{
+    width: 105%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 6 px;
+}
